@@ -58,7 +58,7 @@ Basic Data Types: Integer (int), Float (float), String (str), Boolean (bool), Li
 
 Example Script:
 
-# Variables of different data types
+Variables of different data types
 
 num1 = 10      # int
 
@@ -72,7 +72,7 @@ is_valid = True # bool
 
 Conditional Statements:
 
-# if-else statement
+if-else statement
 
 num = 10
 
@@ -86,7 +86,7 @@ else:
 
 Loops:
 
-# for loop
+for loop
 
 for i in range(1, 5):
 
@@ -96,7 +96,7 @@ for i in range(1, 5):
 
 Function Definition:
 
-# Function to calculate sum of two numbers
+Function to calculate sum of two numbers
 
 def add_numbers(a, b):
 
@@ -104,7 +104,7 @@ def add_numbers(a, b):
 
 
 
-# Calling the function
+Calling the function
 
 result = add_numbers(3, 5)
 
@@ -116,17 +116,17 @@ Lists: Ordered collection of items.
 
 Dictionaries: Key-value pairs, unordered.
 
-# List
+List
 
 numbers = [1, 2, 3, 4, 5]
 
 
-# Dictionary
+Dictionary
 
 person = {"name": "Alice", "age": 30, "city": "New York"}
 
 
-# Accessing elements
+Accessing elements
 
 print(numbers[0])       # Prints 1
 
@@ -137,7 +137,7 @@ print(person["name"])   # Prints "Alice"
 Try-Except-Finally Blocks:
 
 
-# Handling division by zero exception
+Handling division by zero exception
 
 try:
 
@@ -158,12 +158,12 @@ Modules: Python files containing definitions and statements.
 Packages: Collection of modules.
 
 
-# Importing and using math module
+Importing and using math module
 
 import math
 
 
-# Calculating square root
+Calculating square root
 
 num = 25
 
@@ -176,7 +176,7 @@ print("Square root of", num, "is", sqrt_value)
 Reading and Writing Files:
 
 
-# Reading from a file
+Reading from a file
 
 with open("data.txt", "r") as file:
 
@@ -184,7 +184,7 @@ with open("data.txt", "r") as file:
 
     print(content)
 
-# Writing to a file
+Writing to a file
 
 data = ["Apple", "Banana", "Orange"]
 
