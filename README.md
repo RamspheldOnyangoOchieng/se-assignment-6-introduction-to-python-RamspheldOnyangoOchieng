@@ -44,12 +44,6 @@ Setting up a Virtual Environment: Use venv or virtualenv module (python -m venv 
 
 3. Python Syntax and Semantics:
 
-python
-
-Copy code
-
-# Simple Python program printing "Hello, World!" to console
-
 print("Hello, World!")
 
 Syntax Elements:
@@ -63,10 +57,6 @@ print(): Function to output text to the console.
 Basic Data Types: Integer (int), Float (float), String (str), Boolean (bool), List (list), Tuple (tuple), Dictionary (dict).
 
 Example Script:
-
-python
-
-Copy code
 
 # Variables of different data types
 
@@ -82,41 +72,29 @@ is_valid = True # bool
 
 Conditional Statements:
 
-python
-
-Copy code
-
 # if-else statement
 
 num = 10
 
 if num > 0:
 
-    print("Positive")
+   print("Positive")
 
 else:
 
-    print("Non-positive")
+   print("Non-positive")
 
 Loops:
-
-python
-
-Copy code
 
 # for loop
 
 for i in range(1, 5):
 
-    print(i)
+   print(i)
 
 6. Functions in Python:
 
 Function Definition:
-
-python
-
-Copy code
 
 # Function to calculate sum of two numbers
 
@@ -138,20 +116,14 @@ Lists: Ordered collection of items.
 
 Dictionaries: Key-value pairs, unordered.
 
-python
-
-Copy code
-
 # List
 
 numbers = [1, 2, 3, 4, 5]
 
 
-
 # Dictionary
 
 person = {"name": "Alice", "age": 30, "city": "New York"}
-
 
 
 # Accessing elements
@@ -164,9 +136,6 @@ print(person["name"])   # Prints "Alice"
 
 Try-Except-Finally Blocks:
 
-python
-
-Copy code
 
 # Handling division by zero exception
 
@@ -188,14 +157,10 @@ Modules: Python files containing definitions and statements.
 
 Packages: Collection of modules.
 
-python
-
-Copy code
 
 # Importing and using math module
 
 import math
-
 
 
 # Calculating square root
@@ -210,9 +175,6 @@ print("Square root of", num, "is", sqrt_value)
 
 Reading and Writing Files:
 
-python
-
-Copy code
 
 # Reading from a file
 
@@ -222,8 +184,6 @@ with open("data.txt", "r") as file:
 
     print(content)
 
-
-
 # Writing to a file
 
 data = ["Apple", "Banana", "Orange"]
@@ -232,7 +192,7 @@ with open("output.txt", "w") as file:
 
     for fruit in data:
 
-        file.write(fruit + "\n")
+      file.write(fruit + "\n")
 
 # Submission Guidelines:
 
